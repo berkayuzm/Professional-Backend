@@ -1,3 +1,6 @@
 # Professional-Backend
-.Net Core ile geliştirilmiş API projesi.
-![Proje yapısı](https://github.com/berkayuzm/Professional-Backend/assets/48481741/5e7b89de-45bf-45b1-a677-01c2e96c4570)
+
+
+Veritabanı olarak Northwind database, veriye erişim için Entity Framework teknolojisi kullanılmıştır. Proje yapısı ve katmanlar aşağıda yer almaktadır.
+
+![Proje yapısı2](https://github.com/berkayuzm/Professional-Backend/assets/48481741/785bf9e8-ab80-4021-92c2-93463d8e3fde)
