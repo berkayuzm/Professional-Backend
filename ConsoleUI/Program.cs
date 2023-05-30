@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Query.Internal;
 //ProductTest();
 //OrderTest();
 //CategoryTest();
-//Counter();
+Counter();
 static void Counter()
 {
     for (int i = 0; i < 32123456; i++)

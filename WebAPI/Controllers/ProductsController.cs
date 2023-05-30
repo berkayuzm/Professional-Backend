@@ -25,7 +25,7 @@ namespace WebAPI.Controllers
             var result = productManager.GetById(id);
             return Ok(result);
         }
-        [HttpPost]
+        [HttpPost("add")]
         public IActionResult Add(Product product)
         {
             ProductManager productManager = new ProductManager(new EfProductDal());
