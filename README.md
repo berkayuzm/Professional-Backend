@@ -3,4 +3,5 @@
 
 Veritabanı olarak Northwind database, veriye erişim için Entity Framework teknolojisi kullanılmıştır. Proje yapısı ve katmanlar aşağıda yer almaktadır.
 
-![Proje yapısı2](https://github.com/berkayuzm/Professional-Backend/assets/48481741/785bf9e8-ab80-4021-92c2-93463d8e3fde)
+
+![proje yapısı son hali2](https://github.com/berkayuzm/Professional-Backend/assets/48481741/f97067ea-1c10-433c-a86a-939fced54060)
