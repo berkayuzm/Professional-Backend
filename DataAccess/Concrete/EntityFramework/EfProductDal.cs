@@ -17,6 +17,7 @@ namespace DataAccess.Concrete.EntityFramework
     // ek metod yazabileceğimiz interface.
     public class EfProductDal : EfEntityRepositoryBase<Product, NorthwindContext>, IProductDal
     {
+
         public List<ProductDetailDto> GetProductDetails()
         {
             using (NorthwindContext context = new NorthwindContext())

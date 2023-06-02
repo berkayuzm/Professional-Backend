@@ -13,8 +13,10 @@ namespace Core.DataAccess.EntityFramework
         where TEntity : class,IEntity,new()
         where TContext:DbContext,new()
     {
+
         public void Add(TEntity entity)
         {
+            Console.WriteLine(entity);
             using (TContext context = new TContext())
             {
                 var addedEntity = context.Entry(entity);
@@ -44,6 +46,7 @@ namespace Core.DataAccess.EntityFramework
 
         public List<TEntity> GetAll(Expression<Func<TEntity, bool>> filter = null)
         {
+
             using (TContext context = new TContext())
             {
                 return filter == null
