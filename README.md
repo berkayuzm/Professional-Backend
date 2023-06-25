@@ -1,7 +1,13 @@
 # Professional-Backend
 
+Professional-Backend is a comprehensive WebAPI project
+developed with .Net Core, following a multi-layered
+architecture structure, and implementing an IoC container and
+AOP operations with the Autofac library.
 
-Veritabanı olarak Northwind database, veriye erişim için Entity Framework teknolojisi kullanılmıştır. Proje yapısı ve katmanlar aşağıda yer almaktadır.
+Some endpoints= localhost/api/employee/getall , localhost/api/products/add
+
+Project Structure 
 
 
-![proje yapısı son hali2](https://github.com/berkayuzm/Professional-Backend/assets/48481741/f97067ea-1c10-433c-a86a-939fced54060)
+![Ekran görüntüsü 2023-06-25 2201372](https://github.com/berkayuzm/Professional-Backend/assets/48481741/1e54ff84-3c05-4aff-993d-fd95ad79ccae)
